@@ -4,7 +4,6 @@ import org.example.dominio.Curso;
 import org.example.dominio.Mentoria;
 
 import java.time.LocalDate;
-import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +17,7 @@ public class Main {
         curso1.setDescrição("Descrição curso JS");
         curso1.setCargaHoraria(4);
 
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria Java");
         mentoria.setDescrição("Descrição Mentoria Java");
@@ -26,8 +26,6 @@ public class Main {
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);
-
-
 
 
     }
